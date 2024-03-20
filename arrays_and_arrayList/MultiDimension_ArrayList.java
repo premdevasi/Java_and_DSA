@@ -6,7 +6,7 @@ public class MultiDimension_ArrayList {
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> list  = new ArrayList<>();
          Scanner sc = new Scanner(System.in);
-        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> list1 = new ArrayList<>();
 
         // Initialisation
         for (int i = 0; i < 3; i++) {

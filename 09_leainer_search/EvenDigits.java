@@ -10,7 +10,7 @@ public class EvenDigits {
     static int FintdNumbers(int[] nums) {
         int count = 0;
        for (int num : nums) {
-        if(even(num)){//forEach loop 
+        if(even(num)){
             count++;
         }
        }
@@ -27,7 +27,7 @@ public class EvenDigits {
     
 
     static int digit(int num){
-        if(num < 0){//if digit is negative
+        if(num < 0){
             num = num * -1;
         }
         if(num == 0){
